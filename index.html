@@ -7,11 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Заголовок</title>
     <link rel="stylesheet" href="main.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" lang="javascript"></script>
+    <script src="scripts/jquery.js" lang="javascript"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="index.js" lang="javascript"></script>
+    <script>
+        (function() {
+            setTimeout(()=>{
+                $('.scene').hide();
+            }, 5000);
+        })();
+    </script>
 </head>
 <body>
+
+<div class="scene">
+    <div class="wrap">
+        <div class="wall wall-right"></div>
+        <div class="wall wall-left"></div>
+        <div class="wall wall-top"></div>
+        <div class="wall wall-bottom"></div>
+        <div class="wall wall-back"></div>
+    </div>
+    <div class="wrap">
+        <div class="wall wall-right"></div>
+        <div class="wall wall-left"></div>
+        <div class="wall wall-top"></div>
+        <div class="wall wall-bottom"></div>
+        <div class="wall wall-back"></div>
+    </div>
+</div>
+
 <div class="fixed-nav-bar">
     <div class="logo"><span>Placeholder</span>Studios</div>
     <input type="checkbox" id="menuButton" />
@@ -20,9 +45,9 @@
         <div class="white-bar"></div>
         <div class="white-bar"></div>
         <div class="white-bar"></div>
-        <div class="white-bar"></div>
     </label>
 </div>
+
 <div class="the-bass">
     <div class="rela-block drop-down-container">
         <div class="drop-down-item">
@@ -131,4 +156,6 @@
     </div>
 </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src='https://codepen.io/noahblon/pen/QYvmQe/caa6efe92005db0a8b9206328253c5cc.js'></script>
 </html>
