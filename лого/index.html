@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Eletric Spinner ⚡️ (CSS, SVG:Gooey)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg class=filter xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <filter id="blurFilter">
+    <feGaussianBlur stdDeviation="4.5"></feGaussianBlur>
+    <feColorMatrix type="matrix" values="
+              1 0 0 0 0
+              0 1 0 0 0
+              0 0 1 0 0
+              0 0 0 19 -9"></feColorMatrix>
+  </filter>
+</svg>
+
+<div class="demo">
+  <div class="rings">
+    <div class="rings">
+      <div class="logo">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://codepen.io/konstantindenerz/pen/KKxvdPq.js'></script>
+</body>
+</html>
