@@ -21,3 +21,11 @@ $( document ).ready(function() {
     });
     
 });
+
+$( document ).ready(function() {
+    $('body').css('overflow', 'hidden');
+    setTimeout(()=>{
+        $('.loader-wrapper').hide();
+        $('body').css('overflow', 'auto');
+    }, 3000);
+});
